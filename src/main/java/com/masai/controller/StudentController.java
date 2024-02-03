@@ -83,7 +83,7 @@ public class StudentController {
 	 * public Student getStudentByRollNumber(@PathVariable("roll") Integer roll) {:
 	 * This line defines the getStudentByRollNumber method, which handles the GET
 	 * request. The @PathVariable annotation indicates that the value from the URL
-	 * placeholder {roll} should be mapped to the roll parameter.
+	 *  {roll} should be mapped to the roll parameter.
 	 * 
 	 * return sService.getStudentByRoll(roll);: This line calls the getStudentByRoll
 	 * method of the injected StudentService instance to retrieve the student with

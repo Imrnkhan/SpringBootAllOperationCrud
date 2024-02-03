@@ -20,3 +20,11 @@ public interface StudentService {
 	public Student updateStudentMarks(Integer roll, Integer graceMarks)throws StudentException;
 
 }
+
+
+
+
+//@DeleteMapping("/deleteAll")
+// public void deleteAllStudents() {
+// 	studentService.deleteAllStudents();
+// }
