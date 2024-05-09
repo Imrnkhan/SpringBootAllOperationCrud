@@ -9,9 +9,9 @@ public interface StudentService {
 	
 	public Student saveStudent(Student student);
 	
-	public Student getStudentByRoll(Integer roll) throws StudentException;
-	
 	public List<Student> getAllStudents()throws StudentException;
+
+	public Student getStudentByRoll(Integer roll) throws StudentException;
 	
 	public Student deleteStudentByRoll(Integer roll)throws StudentException;
 	
